@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LIST</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      <a href="/" class="header-logo">LIST</a>
+    </header>
+    <div class="container">
+      <div class="container-header">
+        <h1>Penambahan Item</h1>
+      </div>
+      <div class="item-form-wrapper">
+        <p class="form-label">Apa yang anda sewa?</p>
+        <form method="post" action="/create">
+          <input type="text" name="itemNamaMobil" placeholder="Nama Mobil">
+          <input type="text" name="itemMerk" placeholder="Merk">
+          <input type="text" name="itemKap" placeholder="Kapasitas">
+          <input type="text" name="itemJumlah" placeholder="Jumlah Hari">
+          <input type="text" name="itemBiaya" placeholder="Biaya Sewa">
+          <input type="text" name="itemJarak" placeholder="Jarak Tempuh">
+          <input type="submit" value="Tambahkan">
+        </form>
+      </div>
+      <a href="/index" class="cancel-button"></span>Kembali</a>
+    </div>
+  </body>
+</html>
